@@ -1,12 +1,18 @@
+import type { ControlsConfig } from '@/entrypoints/subtitles.content/platforms'
 import { Icon } from '@iconify/react'
 import { useAtomValue } from 'jotai'
-import { Activity } from 'react'
+import { Activity, useRef } from 'react'
 import { cn } from '@/lib/utils'
 import { configFieldsAtomMap } from '@/utils/atoms/config'
 import { SUBTITLES_VIEW_CLASS } from '@/utils/constants/subtitles'
 import { currentSubtitleAtom } from '../atoms'
 import { MainSubtitle, TranslationSubtitle } from './subtitle-lines'
+import { useControlsVisible } from './use-controls-visible'
 import { useVerticalDrag } from './use-vertical-drag'
+
+interface SubtitlesViewProps {
+  controlsConfig?: ControlsConfig
+}
 
 function SubtitlesContent() {
   const { style } = useAtomValue(configFieldsAtomMap.videoSubtitles)
@@ -38,33 +44,52 @@ function SubtitlesContent() {
   )
 }
 
-export function SubtitlesView() {
+export function SubtitlesView({ controlsConfig }: SubtitlesViewProps) {
   const subtitle = useAtomValue(currentSubtitleAtom)
-  const { containerRef, handleRef, topPercent } = useVerticalDrag()
+  const windowRef = useRef<HTMLDivElement>(null)
+  const controlsVisible = useControlsVisible(windowRef, controlsConfig?.checkVisibility)
+  const { containerRef, handleRef, position, windowSize, isDragging, controlsOffsetPercent } = useVerticalDrag(controlsVisible, controlsConfig?.height ?? 0)
+
+  const positionStyle = position.anchor === 'top'
+    ? { top: `${position.percent}%`, bottom: 'unset' }
+    : { bottom: `${position.percent + controlsOffsetPercent}%`, top: 'unset' }
 
   return (
     <div
-      ref={containerRef}
-      className={cn(
-        'group flex flex-col items-center absolute w-full left-0 right-0',
-        !subtitle && 'invisible',
-      )}
+      ref={windowRef}
       style={{
-        top: `${topPercent}%`,
+        width: windowSize.width,
+        height: windowSize.height,
+        fontSize: windowSize.fontSize,
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        pointerEvents: 'none',
+        overflow: 'hidden',
       }}
     >
-      <div className="w-full flex justify-center pointer-events-auto">
-        <div
-          ref={handleRef}
-          className="mb-0.5 px-2 py-1 rounded cursor-grab active:cursor-grabbing bg-black/75 opacity-0 group-hover:opacity-100 active:opacity-100 transition-opacity duration-200"
-        >
-          <Icon icon="tabler:grip-horizontal" className="size-4 text-white" />
+      <div
+        ref={containerRef}
+        className={cn(
+          'group flex flex-col items-center absolute w-full left-0 right-0',
+          !isDragging && 'transition-[top,bottom] duration-200',
+          !subtitle && 'invisible',
+        )}
+        style={positionStyle}
+      >
+        <div className="w-full flex justify-center pointer-events-auto">
+          <div
+            ref={handleRef}
+            className="mb-0.5 px-2 py-1 rounded cursor-grab active:cursor-grabbing bg-black/75 opacity-0 group-hover:opacity-100 active:opacity-100 transition-opacity duration-200"
+          >
+            <Icon icon="tabler:grip-horizontal" className="size-4 text-white" />
+          </div>
         </div>
-      </div>
 
-      <Activity mode={subtitle ? 'visible' : 'hidden'}>
-        <SubtitlesContent />
-      </Activity>
+        <Activity mode={subtitle ? 'visible' : 'hidden'}>
+          <SubtitlesContent />
+        </Activity>
+      </div>
     </div>
   )
 }

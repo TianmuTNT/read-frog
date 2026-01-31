@@ -1,3 +1,8 @@
+export interface ControlsConfig {
+  height: number
+  checkVisibility: (container: HTMLElement) => boolean
+}
+
 export interface PlatformConfig {
   selectors: {
     video: string
@@ -10,4 +15,6 @@ export interface PlatformConfig {
     event?: string
     getVideoId?: () => string | null
   }
+
+  controls?: ControlsConfig
 }

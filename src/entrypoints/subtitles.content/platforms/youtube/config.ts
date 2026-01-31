@@ -16,4 +16,12 @@ export const youtubeConfig: PlatformConfig = {
       return params.get('v')
     },
   },
+
+  controls: {
+    height: 60,
+    checkVisibility: (container) => {
+      const player = container.closest('.html5-video-player')
+      return !!player && !player.classList.contains('ytp-autohide')
+    },
+  },
 }
