@@ -41,10 +41,13 @@ export class SubtitlesScheduler {
         continue
       }
 
-      // Update existing subtitle's translation if new one has translation
       if (newSub.translation) {
-        existing.translation = newSub.translation
-        // Track if current subtitle was updated
+        const updatedSub = { ...existing, translation: newSub.translation }
+        const idx = this.subtitles.findIndex(s => s.start === existing.start)
+        if (idx >= 0) {
+          this.subtitles[idx] = updatedSub
+        }
+
         if (currentSubtitle && existing.start === currentSubtitle.start) {
           currentSubtitleUpdated = true
         }
