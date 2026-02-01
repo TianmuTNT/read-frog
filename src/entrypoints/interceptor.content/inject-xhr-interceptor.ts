@@ -30,17 +30,15 @@ export function injectXhrInterceptor() {
     }
 
     this.addEventListener('loadend', function (this: XMLHttpRequest) {
-      const responseText = this.responseText
-      if (!responseText) {
-        return
-      }
-
       const lang = interceptedUrl.searchParams.get('lang') || 'unknown'
       const kind = interceptedUrl.searchParams.get('kind') || ''
+
+      // Always send postMessage, even if responseText is empty
+      // This allows the fetcher to handle empty responses and retry
       window.postMessage(
         {
           type: SUBTITLE_INTERCEPT_MESSAGE_TYPE,
-          payload: responseText,
+          payload: this.responseText || '',
           lang,
           kind,
           url: urlString,

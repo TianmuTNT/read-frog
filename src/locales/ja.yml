@@ -652,6 +652,10 @@ subtitles:
     noSubtitlesFound: 字幕が見つかりません
     videoNotFound: 動画要素が見つかりません
     controlsBarNotFound: コントロールバーが見つかりません
+    aiRateLimited: リクエストが多すぎます。後でもう一度お試しください
+    aiAuthFailed: API認証に失敗しました。APIキーを確認してください
+    aiServiceUnavailable: 翻訳サービスは一時的に利用できません
+    aiNoResponse: AIサービスが応答しませんでした。原文を表示します
 hotkey:
   control: Ctrl
   alt: Option

@@ -10,6 +10,9 @@ import { detectFormat } from './format-detector'
 import { parseKaraokeSubtitles, parseScrollingAsrSubtitles, parseStandardSubtitles } from './parser'
 import { knownHttpErrorStatusSchema, subtitlesInterceptMessageSchema, youtubeSubtitlesResponseSchema } from './types'
 
+const MAX_RETRIES = 3
+const RETRY_DELAY_MS = 500
+
 export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   private subtitles: SubtitlesFragment[] = []
   private rawEvents: YoutubeTimedText[] = []
@@ -19,6 +22,7 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   private pendingResolve: ((subtitles: SubtitlesFragment[]) => void) | null = null
   private pendingReject: ((error: Error) => void) | null = null
   private timeoutId: ReturnType<typeof setTimeout> | null = null
+  private retryCount: number = 0
 
   initialize(): void {
     this.setupMessageListener()
@@ -28,6 +32,7 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
     if (this.subtitles.length > 0) {
       return this.subtitles
     }
+    this.retryCount = 0
     return new Promise<SubtitlesFragment[]>((resolve, reject) => {
       this.pendingResolve = resolve
       this.pendingReject = reject
@@ -46,6 +51,7 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   cleanup(): void {
     this.subtitles = []
     this.rawEvents = []
+    this.retryCount = 0
     this.clearPending()
   }
 
@@ -61,6 +67,17 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   private rejectAndClearPending(error: Error) {
     this.pendingReject?.(error)
     this.clearPending()
+  }
+
+  private scheduleRetry(): boolean {
+    if (this.retryCount >= MAX_RETRIES) {
+      return false
+    }
+    this.retryCount++
+    setTimeout(() => {
+      this.clickYoutubeSubtitleButton()
+    }, RETRY_DELAY_MS)
+    return true
   }
 
   private setupMessageListener() {
@@ -84,7 +101,16 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   }
 
   private async handleInterceptedSubtitle(data: SubtitlesInterceptMessage) {
+    // Status 0 = request cancelled, silently ignore and wait for next request
+    // pendingResolve remains active, subsequent successful requests will be processed normally
+    if (data.errorStatus === 0) {
+      return
+    }
+
     if (data.errorStatus !== null) {
+      if (this.scheduleRetry()) {
+        return
+      }
       const parsed = knownHttpErrorStatusSchema.safeParse(data.errorStatus)
       const errorMessage = parsed.success
         ? i18n.t(`subtitles.errors.http${parsed.data}`)
@@ -94,6 +120,9 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
     }
 
     if (!data.payload.trim()) {
+      if (this.scheduleRetry()) {
+        return
+      }
       this.rejectAndClearPending(new OverlaySubtitlesError(i18n.t('subtitles.errors.noSubtitlesFound')))
       return
     }
@@ -163,7 +192,7 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
     const isPressed = ccButton.getAttribute('aria-pressed') === 'true'
     if (isPressed) {
       ccButton.click()
-      ccButton.click()
+      setTimeout(() => ccButton.click(), 100)
     }
     else {
       ccButton.click()

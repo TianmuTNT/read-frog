@@ -29,12 +29,23 @@ export class SubtitlesScheduler {
       return
     }
 
-    const existingStarts = new Set(this.subtitles.map(s => s.start))
-    const newSubtitles = subtitles.filter(s => !existingStarts.has(s.start))
+    const existingMap = new Map(this.subtitles.map(s => [s.start, s]))
 
-    this.subtitles.push(...newSubtitles)
+    for (const newSub of subtitles) {
+      const existing = existingMap.get(newSub.start)
+
+      if (!existing) {
+        this.subtitles.push(newSub)
+        continue
+      }
+
+      // Update existing subtitle's translation if new one has translation
+      if (newSub.translation) {
+        existing.translation = newSub.translation
+      }
+    }
+
     this.subtitles.sort((a, b) => a.start - b.start)
-
     this.updateSubtitles(this.videoElement.currentTime)
   }
 
