@@ -1,0 +1,2196 @@
+{
+  "dontWalkIntoSelectors": {
+    "file://**/test.html": [
+      ".test-metadata",
+      ".test-code-block"
+    ],
+    "*.wikipedia.org": [
+      ".mw-editsection",
+      ".mw-cite-backlink",
+      "#p-lang-btn",
+      "#right-navigation",
+      "#p-associated-pages",
+      ".vector-header",
+      ".lazy-image-placeholder"
+    ],
+    "twitter.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "mobile.twitter.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "tweetdeck.twitter.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "pro.twitter.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "platform.twitter.com/embed*": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "x.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "mobile.x.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "tweetdeck.x.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "pro.x.com": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "platform.x.com/embed*": [
+      "[aria-describedby][role=button]",
+      "header",
+      "[data-testid='radioGroupplayback_rate'] div",
+      "[data-testid='userFollowIndicator']",
+      "[class='css-901oao r-14j79pv r-37j5jr r-n6v787 r-16dba41 r-1cwl3u0 r-bcqeeo r-qvutc0']",
+      "[class='css-175oi2r r-1wbh5a2 r-dnmrzs']",
+      "[aria-label=Grok] button",
+      "[aria-label=Grok] [style*='rgb(89, 93, 98)']",
+      "[aria-label=Grok] .r-uho16t",
+      "time",
+      "[data-testid=User-Name]",
+      "[data-testid=socialContext]",
+      "[data-testid=tweet-text-show-more-link]",
+      "[aria-label=Grok] [class='css-175oi2r r-1habvwh r-vqp9x9 r-1q9bdsx r-1loqt21 r-9njtsq r-1wtj0ep r-nsbfu8 r-xbdcod r-13c7hvr'] > div:last-child",
+      "[role='tab']",
+      "[data-testid=hoverCardParent] [role=menuitem]",
+      "[data-testid=sidebarColumn]"
+    ],
+    "*.zoom.us/rec/*": [
+      ".player-share .video-js"
+    ],
+    "*.zoom.us": [
+      ".live-transcription-subtitle__box"
+    ],
+    "teams.live.com": [
+      ".ui-box .ui-box[class='ui-box']",
+      "[data-tid='author']",
+      ".fui-ChatMessageCompact__author"
+    ],
+    "teams.microsoft.com": [
+      ".ui-box .ui-box[class='ui-box']",
+      "[data-tid='author']",
+      ".fui-ChatMessageCompact__author"
+    ],
+    "meet.google.com": [
+      ".iOzk7[jsname='dsyhDe']",
+      ".ygicle.VbkSUe"
+    ],
+    "openrouter.ai": [
+      ".line-clamp-1.text-lg",
+      ".text-muted-foreground.text-sm.col-span-4.text-right",
+      "div[title='Tokens this week']",
+      ".text-green-600.font-medium",
+      ".text-xl.text-slate-11",
+      "button[role='tab']",
+      "[data-badge-type=http-method]",
+      "div[role='region'] > div > ul"
+    ],
+    "polymarket.com": [
+      "div[data-index] button",
+      "number-flow-react",
+      "nav button"
+    ],
+    "www.hoyolab.com": [
+      ".reply-card__nickname",
+      ".mhy-user-card__name",
+      ".mhy-account-title__name"
+    ],
+    "www.threads.net": [
+      ".x6s0dn4.x40hh3e.xrvj5dj.xxfwaov",
+      ".x6s0dn4.x78zum5",
+      ".xpvyfi4.x1xdureb.x1agbcgv",
+      ".xpvyfi4.x1npkx4u.x1ms6mhf"
+    ],
+    "stackoverflow.com": [
+      ".votecell",
+      "header",
+      "#footer",
+      "#question-header + div",
+      "div.postcell div.mb0",
+      "div[id^=comments-link-]",
+      "#answers-header",
+      ".new-post-login",
+      ".form-submit",
+      "a[href='/questions/ask']",
+      "#left-sidebar",
+      "a.comment-user",
+      "span.comment-date",
+      "div.s-prose.js-post-body + div",
+      ".bottom-notice",
+      "div[data-campaign-name=stk]",
+      ".s-post-summary--stats",
+      ".s-post-summary--meta"
+    ],
+    "*.stackexchange.com": [
+      ".votecell",
+      "header",
+      "#footer",
+      "#question-header + div",
+      "div.postcell div.mb0",
+      "div[id^=comments-link-]",
+      "#answers-header",
+      ".new-post-login",
+      ".form-submit",
+      "a[href='/questions/ask']",
+      "#left-sidebar",
+      "a.comment-user",
+      "span.comment-date",
+      "div.s-prose.js-post-body + div",
+      ".bottom-notice",
+      "div[data-campaign-name=stk]",
+      ".s-post-summary--stats",
+      ".s-post-summary--meta"
+    ],
+    "superuser.com": [
+      ".votecell",
+      "header",
+      "#footer",
+      "#question-header + div",
+      "div.postcell div.mb0",
+      "div[id^=comments-link-]",
+      "#answers-header",
+      ".new-post-login",
+      ".form-submit",
+      "a[href='/questions/ask']",
+      "#left-sidebar",
+      "a.comment-user",
+      "span.comment-date",
+      "div.s-prose.js-post-body + div",
+      ".bottom-notice",
+      "div[data-campaign-name=stk]",
+      ".s-post-summary--stats",
+      ".s-post-summary--meta"
+    ],
+    "askubuntu.com": [
+      ".votecell",
+      "header",
+      "#footer",
+      "#question-header + div",
+      "div.postcell div.mb0",
+      "div[id^=comments-link-]",
+      "#answers-header",
+      ".new-post-login",
+      ".form-submit",
+      "a[href='/questions/ask']",
+      "#left-sidebar",
+      "a.comment-user",
+      "span.comment-date",
+      "div.s-prose.js-post-body + div",
+      ".bottom-notice",
+      "div[data-campaign-name=stk]",
+      ".s-post-summary--stats",
+      ".s-post-summary--meta"
+    ],
+    "serverfault.com": [
+      ".votecell",
+      "header",
+      "#footer",
+      "#question-header + div",
+      "div.postcell div.mb0",
+      "div[id^=comments-link-]",
+      "#answers-header",
+      ".new-post-login",
+      ".form-submit",
+      "a[href='/questions/ask']",
+      "#left-sidebar",
+      "a.comment-user",
+      "span.comment-date",
+      "div.s-prose.js-post-body + div",
+      ".bottom-notice",
+      "div[data-campaign-name=stk]",
+      ".s-post-summary--stats",
+      ".s-post-summary--meta"
+    ],
+    "developer.apple.com/documentation/*": [
+      ".vue-recycle-scroller"
+    ],
+    "news.ycombinator.com": [
+      ".reply",
+      ".comhead",
+      ".subtext"
+    ],
+    "*.quora.com": [
+      ".dom_annotate_multifeed_bundle_AskQuestionPromptBundle",
+      ".dom_annotate_feed_switcher",
+      "[class='q-box qu-py--small qu-color--gray_light']",
+      "[class='q-box spacing_log_answer_header']",
+      "[class='q-box qu-flex--auto']",
+      "[class='q-text qu-dynamicFontSize--small qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      ".AnswerFooter___StyledFlex-sc-2xbo88-0",
+      "[class='q-box qu-mb--small']",
+      "button.q-click-wrapper",
+      "[class='q-text qu-dynamicFontSize--tiny qu-pb--tiny qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      "[class='q-text qu-dynamicFontSize--tiny qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      ".qt_read_more",
+      "[class='q-flex qu-alignItems--flex-start']",
+      "[class='q-box qu-pl--tiny']",
+      ".qu-zIndex--action_bar"
+    ],
+    "quora.com": [
+      ".dom_annotate_multifeed_bundle_AskQuestionPromptBundle",
+      ".dom_annotate_feed_switcher",
+      "[class='q-box qu-py--small qu-color--gray_light']",
+      "[class='q-box spacing_log_answer_header']",
+      "[class='q-box qu-flex--auto']",
+      "[class='q-text qu-dynamicFontSize--small qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      ".AnswerFooter___StyledFlex-sc-2xbo88-0",
+      "[class='q-box qu-mb--small']",
+      "button.q-click-wrapper",
+      "[class='q-text qu-dynamicFontSize--tiny qu-pb--tiny qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      "[class='q-text qu-dynamicFontSize--tiny qu-mt--small qu-color--gray_light qu-passColorToLinks']",
+      ".qt_read_more",
+      "[class='q-flex qu-alignItems--flex-start']",
+      "[class='q-box qu-pl--tiny']",
+      ".qu-zIndex--action_bar"
+    ],
+    "https://www.reddit.com/r/*/comments/*/*": [
+      "shreddit-comment-action-row",
+      "faceplate-hovercard"
+    ],
+    "https://www.reddit.com/": [
+      "shreddit-comment-action-row",
+      "faceplate-hovercard"
+    ],
+    "https://www.reddit.com/hot/": [
+      "shreddit-comment-action-row",
+      "faceplate-hovercard"
+    ],
+    "https://www.reddit.com/new/": [
+      "shreddit-comment-action-row",
+      "faceplate-hovercard"
+    ],
+    "https://www.reddit.com/top/": [
+      "shreddit-comment-action-row",
+      "faceplate-hovercard"
+    ],
+    "www.reddit.com": [
+      ".text-neutral-content-weak"
+    ],
+    "www.angel.com": [
+      ".bmpui-subtitle-position-vtt *"
+    ],
+    "www.reuters.com": [
+      "[promotext]",
+      "[data-testid=Leaderboard]",
+      "[data-testid=HomeTickerV2]",
+      "[data-testid=SiteFooter]",
+      "[class^=refinitiv-promo-bar__container]",
+      "[data-testid=ResponsiveAdSlot]"
+    ],
+    "github.com": [
+      "[data-test-selector='commit-tease-commit-message']",
+      "[data-test-selector='create-branch.developmentForm']",
+      "div.Box-header.position-relative",
+      "div.blob-wrapper-embedded",
+      "div.Box.Box--condensed.my-2",
+      "div.jp-CodeCell",
+      "[aria-label=\"Account\"] .markdown-title",
+      ".js-repos-container .markdown-title",
+      "a.anchor",
+      "div.file-navigation + div.Box",
+      "[data-testid^='breadcrumbs']",
+      "[data-ga-click*=Star]",
+      ".markdown-body h3",
+      "div.vcard-names-container",
+      "div.js-disable-context-menu",
+      ".BorderGrid-cell a[role='link']",
+      ".BorderGrid-cell .topic-tag-link",
+      "table[class*='Table-module__Box']",
+      ".author,.assignee",
+      ".blob-code",
+      ".timeline-comment-header",
+      ".review-thread-reply",
+      ".codeRepository",
+      "a[data-hovercard-type]",
+      "[title='Label: Private']",
+      "[aria-label*='language']",
+      ".js-suggested-changes-blob.diff-view",
+      "h1[data-component=PH_Title] span[class*='issueNumberText']"
+    ],
+    "notebooks.githubusercontent.com": [
+      "div.jp-CodeCell"
+    ],
+    "m.facebook.com": [
+      "[data-ad-comet-preview=message] [role=button]",
+      "[role=button]"
+    ],
+    "*.facebook.com": [
+      "[data-ad-comet-preview=message] [role=button]",
+      "[data-ad-rendering-role=profile_name]"
+    ],
+    "m.youtube.com": [
+      ".ytm-badge-and-byline-item-byline",
+      ".ytp-caption-window-container",
+      "text",
+      ".imt-caption-container",
+      "ytd-live-chat-frame"
+    ],
+    "www.twitch.tv": [
+      ".persistent-player",
+      ".chat-line__username-container",
+      ".chat-line__no-background span[aria-hidden=true]",
+      "[data-a-target=animated-channel-viewers-count],.live-time"
+    ],
+    "www.youtube.com": [
+      ".ytp-caption-window-container",
+      "text",
+      ".imt-caption-container",
+      "ytd-button-renderer",
+      ".ytp-sfn-content div :last-child",
+      "ytd-live-chat-frame",
+      "yt-button-shape",
+      "ytd-comments-header-renderer",
+      "yt-content-metadata-view-model",
+      "yt-description-preview-view-model button",
+      ".yt-page-header-view-model__page-header-title"
+    ],
+    "www.youtube-nocookie.com": [
+      ".captions-text",
+      ".ytp-caption-segment"
+    ],
+    "music.youtube.com": [
+      ".captions-text",
+      ".ytp-caption-segment"
+    ],
+    "https://www.instagram.com/p/*": [
+      "hr+div span[dir=auto][style] > span"
+    ],
+    "https://www.instagram.com/reels/*": [
+      "hr+div span[dir=auto][style] > span"
+    ],
+    "*.substack.com": [
+      ".publication-footer",
+      ".subscribe-footer",
+      ".main-menu",
+      ".navbar-title-link",
+      "[data-testid='navbar']",
+      ".navbar-title",
+      ".captioned-button-wrap",
+      ".subscription-widget-wrap",
+      ".tweet-header",
+      ".tweet-link-bottom",
+      ".expanded-link",
+      ".meta-subheader",
+      ".comment-meta",
+      ".comment-actions"
+    ],
+    "newsletter.rootsofprogress.org": [
+      ".publication-footer",
+      ".subscribe-footer",
+      ".main-menu",
+      ".navbar-title-link",
+      "[data-testid='navbar']",
+      ".navbar-title",
+      ".captioned-button-wrap",
+      ".subscription-widget-wrap",
+      ".tweet-header",
+      ".tweet-link-bottom",
+      ".expanded-link",
+      ".meta-subheader",
+      ".comment-meta",
+      ".comment-actions"
+    ],
+    "seekingalpha.com/article/*": [
+      "[data-test-id=post-page-meta]",
+      "header > div:first-child"
+    ],
+    "seekingalpha.com/news/*": [
+      "[data-test-id=post-page-meta]",
+      "header > div:first-child"
+    ],
+    "*.ideas.aha.io": [
+      ".comment-header",
+      ".vote-status",
+      ".idea-meta",
+      ".filters-title",
+      ".ideas-showing-count",
+      ".my-ideas-filters-wrapper",
+      ".statuses-filters-wrapper",
+      ".categories-filters-wrapper",
+      "[class^='attachment']",
+      "span[class^='attachment-name']"
+    ],
+    "news.google.com": [
+      ".EyERq",
+      ".AOl7G.eejsDc",
+      "[aria-label='Home']",
+      "[aria-label='For you']",
+      "[aria-label='Following']",
+      "[aria-label='World']",
+      "[aria-label='Local']",
+      ".gb_Fc",
+      ".wBQf7b",
+      ".yPI8Rb",
+      ".jKHa4e",
+      ".u43Gd",
+      ".Zgjpyb",
+      "[role='button']",
+      "[jsname='rymPhb']",
+      ".cbz1ld",
+      ".VfPpkd-P5QLlc",
+      ".XvhY1d",
+      "time",
+      ".bInasb"
+    ],
+    "outlook.live.com": [
+      ".jHAG3.XG5Jd",
+      ".OZZZK",
+      ".lDdSm",
+      ".ZfoST.VlT6S.azUpZ",
+      ".GssDD,.xpAva,.oHwUF,.D1eg_",
+      "[id=CenterRegion]",
+      "[id=RibbonRoot]",
+      "[role=toolbar]",
+      ".qQbyL,.bkYAr,.gpJ9q,.threeColumnCirclePersonaDivWidth",
+      "[class='_rWRU Ejrkd qq2gS D8iyG']"
+    ],
+    "www.producthunt.com": [
+      ".styles_extraInfo__Xs_5Y",
+      "[data-test=\"show-more-shoutouts-button\"]",
+      ".styles_buttons__kKy_S",
+      ".styles_count___6_8F"
+    ],
+    "https://discord.com/channels/*": [
+      "[class*='username']",
+      "[class*='repliedMessage']"
+    ],
+    "web.telegram.org/z/*": [
+      ".time",
+      ".peer-title",
+      ".document-wrapper",
+      ".message.spoilers-container custom-emoji-element"
+    ],
+    "web.telegram.org/a/*": [
+      ".time",
+      ".peer-title",
+      ".document-wrapper",
+      ".message.spoilers-container custom-emoji-element"
+    ],
+    "web.telegram.org/k/*": [
+      ".time",
+      ".peer-title",
+      ".document-wrapper",
+      ".message.spoilers-container custom-emoji-element"
+    ],
+    "web.telegram.org/k/": [
+      ".time",
+      ".peer-title",
+      ".document-wrapper",
+      ".message.spoilers-container custom-emoji-element"
+    ],
+    "www.artstation.com/artwork/*": [
+      ".project-description a"
+    ],
+    "https://www.artstation.com/blogs": [
+      "blog-card-thumbnail",
+      "blog-card-header",
+      ".blog-card-author",
+      ".blog-card-meta",
+      ".blog-view-header",
+      ".blog-grid-title",
+      ".post-meta-header"
+    ],
+    "https://www.artstation.com/blogs/*": [
+      "blog-card-thumbnail",
+      "blog-card-header",
+      ".blog-card-author",
+      ".blog-card-meta",
+      ".blog-view-header",
+      ".blog-grid-title",
+      ".post-meta-header"
+    ],
+    "www.figma.com/community/*": [
+      "div[class*='metadataRight']",
+      "div[class*='commentMetaAndOptions']"
+    ],
+    "https://www.google.com/": [
+      "#gb",
+      "#SIvCob"
+    ],
+    "https://www.google.com.hk/": [
+      "#gb",
+      "#SIvCob"
+    ],
+    "www.google.*/search*": [
+      "a h3 + div",
+      "div#sfooter",
+      ".b5ZQcf",
+      ".CEMjEf",
+      ".MgUUmf.NUnG9d",
+      "#result-stats",
+      "[role=navigation]",
+      "div.sCuL3",
+      "div.eFM0qc.BCF2pd",
+      "div.WZ8Tjf",
+      "div.adDDi",
+      "#headerSection",
+      "#rateChatDiv",
+      ".title-D5Lgyj",
+      "[data-attrid='VisualDigestVideoResult']",
+      ".search-enhance-WDIEkP h4",
+      ".SPZz6b h2",
+      ".CtCigf",
+      ".VLkRKc",
+      ".EbH0bb",
+      ".Wr0c6d",
+      ".jleFbf",
+      "#searchform",
+      ".yg51vc",
+      ".CbAZb",
+      ".B6fmyf.byrV5b.Mg1HEd",
+      "[class='SPa6uf Hqu6dd OSrXXb']",
+      "[class='ZtihLe YrbPuc']",
+      "[class='kb0PBd A9Y9g'] .TXwUJf,[class='kb0PBd cvP2Ce'] .TXwUJf",
+      "[class='wep10b vDF3Oc jIrdcd'],[class='gqF9jc YrbPuc']",
+      "span[data-ts]",
+      "[jscontroller='UsftYd']"
+    ],
+    "lowendtalk.com": [
+      ".ClearFix .Count"
+    ],
+    "www.indiehackers.com": [
+      ".portal-entry__date",
+      ".portal-entry__byline",
+      ".firestore-post__header-metadata",
+      ".story__counts",
+      ".story__time-ago",
+      ".story__byline",
+      ".partnerships__age",
+      ".job__pay",
+      ".author-bio__name-link",
+      ".comment__footer"
+    ],
+    "deepwiki.com": [
+      "[class*='flex items-center break-all rounded-l px-2 py-1.5 bg-[#e5e5e5] text-[#333333] dark:bg-[#252525] dark:text-[#e4e4e4] rounded-r']",
+      "[class*='mb-1 mr-1 inline-flex items-stretch font-mono text-xs !no-underline transition-opacity hover:opacity-75']"
+    ],
+    "notion.site": [
+      ".notion-code-block"
+    ],
+    "*.notion.site": [
+      ".notion-code-block"
+    ],
+    "www.newyorker.com": [
+      "[data-testid=PersistentTop]",
+      "[data-testid=StackedNavigationHeader]"
+    ],
+    "typora.io": [
+      ".tab-slider--nav"
+    ],
+    "www.lesswrong.com": [
+      ".PostsPagePostHeader-authorAndSecondaryInfo",
+      ".Answer-answerHeader",
+      "time",
+      ".CommentsItemMeta-root",
+      ".CommentsListMeta-root",
+      ".CommentsTableOfContents-tocPostedAt",
+      ".CommentsTableOfContents-commentAuthor",
+      ".CommentBottom-bottom"
+    ],
+    "www.cnbc.com": [
+      "#GlobalNavigation",
+      "#GlobalFooter",
+      ".LiveBlogHeader-timestampAndShareBarContainer",
+      ".LiveBlogHeader-liveUpdatesPill",
+      ".QuoteInBody-inlineButton"
+    ],
+    "https://www.xvideos.com/*": [
+      ".video-hd-mark"
+    ],
+    "https://missav.*/*": [
+      ".leading-normal",
+      "[class='absolute bottom-1 right-1 rounded-lg px-2 py-1 text-xs text-nord5 bg-gray-800 bg-opacity-75']",
+      "[class='absolute bottom-1 left-1 rounded-lg px-2 py-1 text-xs text-nord5 bg-blue-800 bg-opacity-75']"
+    ],
+    "https://www.javbus.com/*": [
+      ".item-tag",
+      "date"
+    ],
+    "https://spankbang.com/*": [
+      ".stats",
+      ".thumb"
+    ],
+    "https://javdb*.com/*": [
+      ".video-number",
+      ".score",
+      ".has-addons"
+    ],
+    "www.uxento.io": [
+      "article div[class='flex justify-between items-center px-3']",
+      "article div[class='flex items-center gap-2 mb-2']",
+      "article div[class='flex justify-between items-center pr-4']",
+      "article div[class='px-3 pb-3 pt-1 grid grid-cols-2 gap-4']",
+      "article div[class='flex flex-wrap gap-1 mt-1']",
+      "article div[class='flex items-center gap-3 pr-12']"
+    ],
+    "medium.com": [
+      "[aria-label='Post Preview Reading Time']",
+      ".al.b.bl.ag.bp",
+      ".al.b.bl.ag.ai",
+      ".hx.hy.hz.ia.ib.ab",
+      ".qb.ab",
+      ".ai.bn.n.mj",
+      ".speechify-ignore",
+      "article pre",
+      "pre > span"
+    ],
+    "*.medium.com": [
+      "[aria-label='Post Preview Reading Time']",
+      ".al.b.bl.ag.bp",
+      ".al.b.bl.ag.ai",
+      ".hx.hy.hz.ia.ib.ab",
+      ".qb.ab",
+      ".ai.bn.n.mj",
+      ".speechify-ignore",
+      "article pre",
+      "pre > span"
+    ],
+    "www.economist.com": [
+      "footer.ds-footer"
+    ],
+    "www.healthline.com": [
+      ".icon-hl-trusted-source-after"
+    ],
+    "www.ebay.com": [
+      "headers",
+      "[itemprop=offers]",
+      ".dne-itemtile-original-price"
+    ],
+    "www.skinstore.com": [
+      ".responsiveFlyoutMenu_levelOneLink"
+    ],
+    "www.primevideo.com": [
+      "#dv-web-player"
+    ],
+    "https://*.amazon.co.*/*video*": [
+      "#dv-web-player"
+    ],
+    "https://*.amazon.com/*video*": [
+      "#dv-web-player"
+    ],
+    "https://*.amazon.*/*video*": [
+      "#dv-web-player"
+    ],
+    "www.amazon.*": [
+      "#navFooter",
+      ".s-price-instructions-style",
+      "[class*='-star ']",
+      "[data-hook='acr-average-stars-rating-text']",
+      ".a-color-price"
+    ],
+    "marketplace.visualstudio.com": [
+      ".core-info-second-row",
+      ".core-info-third-row",
+      ".meta-data-list",
+      ".item-title",
+      ".breadcrumb",
+      ".itemDetails-right",
+      ".ux-user-name",
+      ".ux-updated-date",
+      ".ux-item-second-row-wrapper",
+      ".stats-and-offer",
+      ".header-container"
+    ],
+    "www.bloomberg.com": [
+      ".ticker-bar",
+      "nav",
+      "[aria-label=Banner]",
+      "aside",
+      "[data-component=ticker-bar]",
+      "footer.bb-global-footer",
+      ".vjs-text-track-display"
+    ],
+    "www.sciencedirect.com": [
+      ".bibliography"
+    ],
+    "play.google.com": [
+      ".vlGucd",
+      ".ubGTjb",
+      ".page-nums"
+    ],
+    "www.tumblr.com": [
+      "div.fAAi8",
+      "div.wvu3V"
+    ],
+    "www.foxnews.com": [
+      ".site-footer",
+      ".components-MessageDetails-index__message-details-wrapper",
+      "div[class^=SlideDown__container]",
+      ".components-MessageActions-index__messageActionsWrapper",
+      "span[data-openweb-allow-amp]",
+      "div.spcv_typing-users"
+    ],
+    "www.construct.net": [
+      "div.topNav",
+      "div.usernameLink",
+      "ul.authorDetails",
+      "ul.tagViewer",
+      "ul.breadCrumbNav",
+      "ul.subForumForums",
+      "ul.postTools",
+      "li.comment ul.controls",
+      "div.forumTopNavWrap",
+      "div.downloadWrap",
+      "div.articleLeftMenu",
+      "div.usernameTextWrap",
+      "div.favouriteWrap",
+      "div.bannerWrapper",
+      "div.viewAddonRightMenu",
+      "div.extendedMenu.addonsSubMenu",
+      "#BottomLinks.bottomLinks",
+      "div#LeftSide.leftSide",
+      "div#BottomWrap.bottomWrap",
+      "div.courseListWrap div.overview",
+      "div.conversationControls",
+      "div.contentWrapper h1",
+      "td.location a#LocationLink",
+      "#TopLevelComments .topBar",
+      "#TopLevelComments .controls",
+      ".tagViewWrap",
+      ".changeCount",
+      ".otherStats",
+      ".FilterMenu",
+      ".mobileTopicStats",
+      ".forumControlsWrapper",
+      ".forumsBottomNavWrap",
+      ".breadCrumbNav",
+      ".favouriteWrap",
+      ".usernameLink",
+      ".followWrapper",
+      ".blogPostStats",
+      ".manualContent dl dt"
+    ],
+    "*.fandom.com": [
+      "header.fandom-community-header",
+      "div.ph-registration-buttons"
+    ],
+    "huggingface.co": [
+      "thead",
+      "ul.text-base",
+      "a.group > div.flex-1",
+      "div.absolute.truncate",
+      "nav",
+      "ul[class*='dark:border-gray-800']",
+      "div[class*='from-gray-100-to-white']"
+    ],
+    "https://you.com/search": [
+      "div.hpIWZO"
+    ],
+    "auth0.openai.com": [
+      "form",
+      "header > h1"
+    ],
+    "chat.openai.com": [
+      "div.absolute.bottom-0.left-0.w-full",
+      "h1",
+      "div#headlessui-portal-root",
+      "nav",
+      "ul[aria-multiselectable]",
+      ".markdown *",
+      "div[class='flex flex-col items-start']",
+      "div[class='flex items-center justify-center gap-1 border-b border-black/10 bg-gray-50 p-3 text-gray-500 dark:border-gray-900/50 dark:bg-gray-700 dark:text-gray-300']"
+    ],
+    "chatgpt.com": [
+      "div.absolute.bottom-0.left-0.w-full",
+      "h1",
+      "div#headlessui-portal-root",
+      "nav",
+      "ul[aria-multiselectable]",
+      ".markdown *",
+      "div[class='flex flex-col items-start']",
+      "div[class='flex items-center justify-center gap-1 border-b border-black/10 bg-gray-50 p-3 text-gray-500 dark:border-gray-900/50 dark:bg-gray-700 dark:text-gray-300']"
+    ],
+    "https://poe.com/*": [
+      ".Markdown_markdownContainer__Tz3HQ *",
+      ".MarkdownLink_linkifiedLink__KxC9G",
+      "menu",
+      "aside"
+    ],
+    "https://janitorai.com": [
+      "[data-testid=virtuoso-scroller] .css-104fsj *"
+    ],
+    "glasp.co": [
+      ".home_overview_list_content_wrapper"
+    ],
+    "developer.chrome.com": [
+      "web-tabs",
+      "ul.code-sections--summary"
+    ],
+    "www.ft.com": [
+      "header",
+      "[aria-labelledby=cookie-banner-aria-label]",
+      "footer",
+      "[aria-label='Primary navigation']"
+    ],
+    "gitlab.com": [
+      ".tree-content-holder",
+      "nav",
+      ".home-panel-metadata",
+      "div[data-testid=project_topic_list]",
+      ".commit"
+    ],
+    "https://www.tiktok.com/*/video/*": [
+      "[class*='DivInfoPosition']",
+      "[data-e2e*='-count']",
+      "[data-e2e='nav-foryou']",
+      "[data-e2e*='view-more']",
+      "[data-e2e*='comment-reply']",
+      "[data-e2e*='comment-username']",
+      "[class*='DivCommentSubContentSplitWrapper']",
+      "[class*='DivViewRepliesContainer']"
+    ],
+    "https://www.tiktok.com/*": [
+      "[class*='DivInfoPosition']",
+      "[data-e2e*='-count']",
+      "[data-e2e='nav-foryou']",
+      "[data-e2e*='view-more']",
+      "[data-e2e*='comment-reply']",
+      "[data-e2e*='comment-username']",
+      "[class*='DivCommentSubContentSplitWrapper']",
+      "[class*='DivViewRepliesContainer']"
+    ],
+    "steamcommunity.com": [
+      ".forum_paging",
+      ".forum_topic_reply_count",
+      ".forum_topic_lastpost",
+      ".forum_topic_award_count",
+      ".discussion_search_pagingcontrols",
+      ".found_helpful,.vote_header,.date_posted,.early_access_review,.apphub_CardContentAuthorBlock"
+    ],
+    "store.steampowered.com/app/*": [
+      "#global_actions",
+      "#store_controls",
+      "#foryou_tab",
+      "[class*=persona]",
+      "a.btn_medium",
+      ".persona_name",
+      ".hours.ellipsis",
+      ".checkcol",
+      ".postedDate",
+      ".dev_row .summary",
+      ".already_in_library",
+      ".game_header_image_ctn .grid_content",
+      ".ds_flag.ds_wishlist_flag",
+      ".early_access_review.tooltip",
+      ".communitylink_achievement_images",
+      ".user_reviews_summary_row.summary",
+      ".review_award_ctn",
+      ".add_to_wishlist_area",
+      ".next_in_queue_content",
+      ".glance_tags.popular_tags",
+      ".game_purchase_action",
+      ".vote_button_ctn",
+      "#VoteUpDownBtnCtn",
+      "#footer",
+      "#ViewAllReviewssummary",
+      ".user_reviews",
+      ".ReviewContentCtn .title",
+      ".author_counts,.control_block,.vote_info"
+    ],
+    "https://www.nature.com/articles/*": [
+      ".c-header",
+      ".c-recommendations-header",
+      ".c-recommendations-list-container",
+      ".c-article-references__links",
+      ".c-article-identifiers",
+      ".c-article-author-list",
+      ".c-article-metrics-bar__wrapper",
+      ".c-article__pill-button",
+      "#author-information-content",
+      "#article-info-section",
+      ".pdf-content"
+    ],
+    "https://www.webofscience.com/*": [
+      "app-custom-breadcrumbs",
+      ".summary-left-panel",
+      ".authors",
+      "app-full-record-keywords mark",
+      "mat-sidenav",
+      "[name=pubdate]",
+      "[data-ta^=Summary-]",
+      "app-summary-authors",
+      ".search-text",
+      ".mat-drawer-inner-container",
+      "[class*='sidenav-panel']"
+    ],
+    "https://webofscience.clarivate.*/*": [
+      "app-custom-breadcrumbs",
+      ".summary-left-panel",
+      ".authors",
+      "app-full-record-keywords mark",
+      "mat-sidenav",
+      "[name=pubdate]",
+      "[data-ta^=Summary-]",
+      "app-summary-authors",
+      ".search-text",
+      ".mat-drawer-inner-container",
+      "[class*='sidenav-panel']"
+    ],
+    "www-webofscience-com-*.*": [
+      "app-custom-breadcrumbs",
+      ".summary-left-panel",
+      ".authors",
+      "app-full-record-keywords mark",
+      "mat-sidenav",
+      "[name=pubdate]",
+      "[data-ta^=Summary-]",
+      "app-summary-authors",
+      ".search-text",
+      ".mat-drawer-inner-container",
+      "[class*='sidenav-panel']"
+    ],
+    "webofscience-clarivate*.*": [
+      "app-custom-breadcrumbs",
+      ".summary-left-panel",
+      ".authors",
+      "app-full-record-keywords mark",
+      "mat-sidenav",
+      "[name=pubdate]",
+      "[data-ta^=Summary-]",
+      "app-summary-authors",
+      ".search-text",
+      ".mat-drawer-inner-container",
+      "[class*='sidenav-panel']"
+    ],
+    "*.ustc.edu.*/*wos*": [
+      "app-custom-breadcrumbs",
+      ".summary-left-panel",
+      ".authors",
+      "app-full-record-keywords mark",
+      "mat-sidenav",
+      "[name=pubdate]",
+      "[data-ta^=Summary-]",
+      "app-summary-authors",
+      ".search-text",
+      ".mat-drawer-inner-container",
+      "[class*='sidenav-panel']"
+    ],
+    "www.science.org": [
+      ".core-self-citation",
+      ".contributors"
+    ],
+    "appleinsider.com": [
+      "#topic-nav"
+    ],
+    "https://*.jetbrains.com": [
+      ".toolbar__ee8",
+      "[data-test=\"left-sidebar\"]",
+      ".comment__info",
+      ".symbol.monospace"
+    ],
+    "www.theverge.com": [
+      ".k8dtcj0",
+      "._2xqpwjf._2xqpwj0"
+    ],
+    "https://www.lookintobitcoin.com/charts/*": [
+      "svg"
+    ],
+    "https://platform.openai.com/docs*": [
+      ".pheader"
+    ],
+    "thehackernews.com": [
+      "span#blog-pager-older-link",
+      "span.h-datetime"
+    ],
+    "cs.brown.edu": [
+      ".SCodeFlow"
+    ],
+    "https://www.fiverr.com/inbox/*": [
+      "[data-testid=basic-message-header]",
+      "[data-testid=message-header-timestamp]",
+      "time",
+      ".user-name",
+      ".user-info",
+      ".header"
+    ],
+    "*.fiverr.com": [
+      ".popular"
+    ],
+    "thehill.com": [
+      "div.featured-cards__byline",
+      "div.list-item__meta",
+      ".tags__item",
+      "div.extended-scroll__header",
+      ".submitted-by",
+      ".site-header--has-alert-banner",
+      ".homepage__container__opinion__item__byline",
+      ".homepage__container__header",
+      ".archive__item__meta"
+    ],
+    "https://yandex.com/search/*": [
+      ".KeyValue-Row",
+      ".EntityFeedbackFooter",
+      ".Organic-Subtitle",
+      ".SerpFooter-Content",
+      ".serp-user",
+      ".Pager"
+    ],
+    "https://www.perplexity.ai": [
+      "[data-framer-name='Desktop']"
+    ],
+    "blog.genuine.com": [
+      "div.enlighter"
+    ],
+    "www.chinadaily.com.cn": [
+      ".topNav",
+      ".topNav2_art > span",
+      ".topNav_art2 > .dropdown",
+      ".dibu-three",
+      ".topBar"
+    ],
+    "www.braynzarsoft.net": [
+      "#content-header",
+      ".sidebar-section",
+      ".rating-box",
+      ".tutorial-stat",
+      "#bookmark-btn",
+      ".question-footer",
+      ".adsbygoogle",
+      ".footer",
+      ".type",
+      ".views",
+      ".questioninputcode"
+    ],
+    "https://www.yuque.com/*": [
+      ".lark-virtual-tree"
+    ],
+    "www.researchgate.net": [
+      ".nova-legacy-v-publication-item__meta-data",
+      ".nova-legacy-v-publication-item__person-list",
+      ".js-authors-list"
+    ],
+    "www.theatlantic.com": [
+      "footer:last-of-type",
+      "nav",
+      "header div.subtitle-2.w-full"
+    ],
+    "https://mashable.com/*": [
+      "footer:last-of-type",
+      "nav",
+      "header div.subtitle-2.w-full"
+    ],
+    "www.dw.com": [
+      ".focus-menu-shown"
+    ],
+    "feedly.com": [
+      ".Leftnav"
+    ],
+    "web.whatsapp.com": [
+      "[aria-hidden=true]"
+    ],
+    "https://*.bing.com/search*": [
+      ".tptxt"
+    ],
+    "orm.drizzle.team": [
+      "[class^='codetabs_tab']",
+      ".npm__tab"
+    ],
+    "*.yahoo.*": [
+      "._ys_jiqava",
+      "#ybar-inner-wrap",
+      "#Col2-5-Rmp-Proxy",
+      ".readmore",
+      ".ticker-item-wrapper",
+      ".ticker-list"
+    ],
+    "www.wsj.com": [
+      "header",
+      "footer",
+      "nav",
+      "[aria-label='Markets summary']"
+    ],
+    "cn.wsj.com": [
+      "header",
+      "footer",
+      "nav",
+      "[aria-label='Markets summary']"
+    ],
+    "www.businessinsider.com": [
+      "header",
+      "nav",
+      "section.live-updates-module "
+    ],
+    "www.goodreads.com": [
+      ".badgeYear",
+      ".gr-mediaBox__desc",
+      ".bookVotedRow",
+      ".minirating",
+      "div[itemprop='aggregateRating']",
+      ".wtrButtonContainer",
+      ".RatingsHistogram__labelTitle",
+      ".FollowButton",
+      ".siteHeader__topLevelLink",
+      "#books > thead",
+      "td[class*='rating']",
+      "td[class*='shelves']",
+      "td[class*='date_read']",
+      "td[class*='date_added']",
+      "td[class*='actions']"
+    ],
+    "www.nytimes.com": [
+      "#app > div > div > header",
+      "#app > div > div > div > div > header",
+      "#in-story-masthead",
+      "[data-testid=masthead-container]",
+      "[data-testid=user-header]",
+      "[data-testid^='recommend-button']",
+      "[data-testid=copy-link]",
+      ".css-mydst6 > a"
+    ],
+    "bugs.kde.org": [
+      ".bz_first_comment_head",
+      ".bz_comment_head",
+      ".related_actions"
+    ],
+    "claude.ai": [
+      ".contents *",
+      ".code-block__code"
+    ],
+    "*.feishu.cn": [
+      ".catalogue__list"
+    ],
+    "*.larkoffice.com": [
+      ".catalogue__list"
+    ],
+    "*.larksuite.com": [
+      ".catalogue__list"
+    ],
+    "www.kaggle.com": [
+      ".sc-kHItYk.kCjSZT",
+      ".sc-hagvSa.guBIfV",
+      ".sc-jhZTHU.btgPPn",
+      "#editor-sidebar-scroll-container"
+    ],
+    "*.cnn.com": [
+      ".ad-slot-header__wrapper",
+      "#pageFooter"
+    ],
+    "dblp.uni-trier.de": [
+      ".side-column"
+    ],
+    "www.bilibili.com": [
+      ".bpx-player-subtitle-panel-text",
+      ".bili-video-card__info--author, .bili-video-card__info--date",
+      "#pictures,#note,#info,#footer,#expander-footer,.playinfo,.upname,#bilibili-player"
+    ],
+    "time.com": [
+      ".date-and-duration"
+    ],
+    "pubmed.ncbi.nlm.nih.gov": [
+      ".docsum-journal-citation",
+      ".citation-part",
+      ".docsum-authors",
+      ".top-wrapper",
+      ".article-source",
+      ".citation-doi",
+      ".identifiers",
+      ".cite",
+      ".share",
+      ".arrow-link",
+      ".multiple-results-actions",
+      ".sort-dropdown .option-label",
+      ".display-options .button-label",
+      ".actions-buttons.sidebar",
+      ".title-copy"
+    ],
+    "pubmed*.pubmed*": [
+      ".docsum-journal-citation",
+      ".citation-part",
+      ".docsum-authors",
+      ".top-wrapper",
+      ".article-source",
+      ".citation-doi",
+      ".identifiers",
+      ".cite",
+      ".share",
+      ".arrow-link",
+      ".multiple-results-actions",
+      ".sort-dropdown .option-label",
+      ".display-options .button-label",
+      ".actions-buttons.sidebar",
+      ".title-copy"
+    ],
+    "*.ncbi.nlm.nih.gov": [
+      ".docsum-journal-citation",
+      ".citation-part",
+      ".docsum-authors",
+      ".top-wrapper",
+      ".article-source",
+      ".citation-doi",
+      ".identifiers",
+      ".cite",
+      ".share",
+      ".arrow-link",
+      ".multiple-results-actions",
+      ".sort-dropdown .option-label",
+      ".display-options .button-label",
+      ".actions-buttons.sidebar",
+      ".title-copy"
+    ],
+    "www.digitimes.com": [
+      ".main-nav-frame",
+      ".sub-header-wrapper",
+      ".footer",
+      ".date"
+    ],
+    "www.vdi-nachrichten.com": [
+      ".header-menu__item > a",
+      ".linkbar__item",
+      ".header__button-group"
+    ],
+    "*.mail.qq.com": [
+      ".xmail-cmp-account"
+    ],
+    "maxroll.gg": [
+      "span[class^='text-opac'] + span[class^='text-']"
+    ],
+    "www.gradio.app/docs/*": [
+      "div#examples"
+    ],
+    "arca.live": [
+      "span.user-info"
+    ],
+    "www.chatpdf.com": [
+      ".chat-message-row.ai *",
+      ".pdf-viewer"
+    ],
+    "app.element.io": [
+      ".mx_DisambiguatedProfile",
+      ".mx_ReplyChain_wrapper",
+      ".mx_ThreadSummary_replies_amount"
+    ],
+    "*.epam.com": [
+      "#blog-page-sidebar-wrapper"
+    ],
+    "discussions.apple.com": [
+      ".page-number"
+    ],
+    "www.sixthtone.com": [
+      "#footer",
+      "[class^=index_time]",
+      "[class^=index_anthorList]",
+      "[class^=index_node]",
+      "[class^=index_popupWrapper]"
+    ],
+    "forum.unity.com": [
+      ".bbCodeCode"
+    ],
+    "www.netflix.com": [
+      ".player-timedtext"
+    ],
+    "*.udemy.com": [
+      "[data-purpose='captions-cue-text']",
+      ".shaka-text-container"
+    ],
+    "iview.abc.net.au": [
+      ".jwplayer"
+    ],
+    "www.nma.art": [
+      ".video-container"
+    ],
+    "*.wiley.com": [
+      ".loa-authors",
+      ".MuiBox-root > .MuiTypography-root.MuiTypography-body2"
+    ],
+    "www.patreon.com": [
+      ".video-container"
+    ],
+    "www.thaipbs.*": [
+      ".video-container"
+    ],
+    "players.brightcove.net": [
+      ".video-container"
+    ],
+    "hstream.moe": [
+      ".video-container"
+    ],
+    "academy.zenva.com": [
+      ".video-container"
+    ],
+    "university.lowstresshandling.com": [
+      "div[data-vjs-player]"
+    ],
+    "developer.apple.com": [
+      ".developer-video-player",
+      ".vue-recycle-scroller"
+    ],
+    "nebula.tv": [
+      "[data-subtitles-container='true']"
+    ],
+    "mangaplus.shueisha.*": [
+      ".zao-surface"
+    ],
+    "zebrack-comic.shueisha.*": [
+      ".eAvsta_root"
+    ],
+    "e-hentai.org": [
+      "#i3"
+    ],
+    "www.runoob.com": [
+      ".example_code"
+    ],
+    "seiga.nicovideo.*/watch/mg*": [
+      ".page"
+    ],
+    "frontendmasters.com": [
+      ".vjs-text-track-display"
+    ],
+    "*.udacity.com": [
+      ".vjs-text-track-display"
+    ],
+    "www.skillshare.com": [
+      ".vjs-text-track-display"
+    ],
+    "tubitv.com": [
+      ".vjs-text-track-display"
+    ],
+    "learning.iaabcfoundation.org": [
+      "[data-testid=\"video-player\"]"
+    ],
+    "www.domestika.org": [
+      ".vjs-text-track-display"
+    ],
+    "play.max.com": [
+      "[data-testid='playerContainer']",
+      "[data-testid='CueBoxContainer']"
+    ],
+    "play.hbomax.com": [
+      "[data-testid='playerContainer']",
+      "[data-testid='CueBoxContainer']"
+    ],
+    "home.mindvalley.com": [
+      ".vjs-text-track-display"
+    ],
+    "www.viki.com": [
+      ".vjs-text-track-display"
+    ],
+    "www.masterclass.com": [
+      ".mc-video--text-track"
+    ],
+    "learn.microsoft.com": [
+      ".mc-video--text-track"
+    ],
+    "slideslive.com": [
+      ".slp__video"
+    ],
+    "www.viu.com": [
+      ".bmpui-ui-viu-subtitle-overlay"
+    ],
+    "*.linkedin.com": [
+      ".vjs-text-track-display"
+    ],
+    "*.kanopy.com": [
+      ".vjs-text-track-display"
+    ],
+    "www.iflix.com": [
+      ".text-track"
+    ],
+    "wetv.vip": [
+      ".text-track"
+    ],
+    "app.rapidlaunch.wtf": [
+      "div.border-b.border-gray-700\\/50.flex",
+      "a.text-blue-400",
+      ".flex.items-center.text-xs.text-gray-400",
+      ".flex.items-center.gap-1\\.5.mb-1"
+    ],
+    "www.imdb.com": [
+      ".jw-text-track-container"
+    ],
+    "m.imdb.com": [
+      ".jw-text-track-container"
+    ],
+    "pan.quark.*": [
+      ".video-container"
+    ],
+    "ocrtraining.cit.nih.gov": [
+      "#videocastPlayer"
+    ],
+    "videocast.nih.gov": [
+      "#videocastPlayer"
+    ],
+    "*.espn.com": [
+      "#fittPageContainer"
+    ],
+    "*.dailymotion.com": [
+      ".player"
+    ],
+    "movie-web.app/media*": [
+      "#root"
+    ],
+    "movie-web-me.vercel.app/media*": [
+      "#root"
+    ],
+    "*.vidbinge.com": [
+      "#root"
+    ],
+    "vidsrc.xyz": [
+      "#root"
+    ],
+    "learn.deeplearning.ai": [
+      "[data-layout=\"video\"]"
+    ],
+    "weverse.io": [
+      ".pzp-pc__video"
+    ],
+    "quantra.quantinsti.com": [
+      "#vjs_video_3"
+    ],
+    "*.paramountplus.com": [
+      ".aa-player-skin"
+    ],
+    "pluto.tv": [
+      ".video-player-layout"
+    ],
+    "www.ted.com": [
+      "#video"
+    ],
+    "dev.epicgames.com": [
+      ".vjs-poster"
+    ],
+    "boosterx.stream": [
+      ".jw-wrapper"
+    ],
+    "khflix.com": [
+      "#video-playlist"
+    ],
+    "watch.globaltv.com": [
+      "#video-playlist"
+    ],
+    "dwserver.donghuaworld.com": [
+      ".jw-media"
+    ],
+    "app.lecturio.com": [
+      "#vjs_video_3"
+    ],
+    "www.ganjingworld.com": [
+      ".vidPlayerWrap"
+    ],
+    "www.fau.tv": [
+      ".jw-wrapper"
+    ],
+    "vimeo.com": [
+      ".vp-captions"
+    ],
+    "training.leveleffect.com": [
+      ".vp-captions"
+    ],
+    "https://player.vimeo.com/video/*": [
+      ".vp-captions-line"
+    ],
+    "laracasts.com": [
+      ".vp-captions-line"
+    ],
+    "www.physeo.com": [
+      ".vp-captions-line"
+    ],
+    "https://*.tv.adobe.com": [
+      ".mpc-player"
+    ],
+    "threejs-journey.com": [
+      ".video-area"
+    ],
+    "learn.codewithchris.com": [
+      ".w-captions",
+      ".w-captions-line > div > span"
+    ],
+    "*.rachelsenglishacademy.com": [
+      ".w-captions",
+      ".w-captions-line > div > span"
+    ],
+    "www.unrealsenseiacademy.com": [
+      ".w-captions",
+      ".w-captions-line > div > span"
+    ],
+    "www.comsol.com/video/*": [
+      ".w-captions",
+      ".w-captions-line > div > span"
+    ],
+    "www.comsol.com/blogs/*": [
+      ".w-captions",
+      ".w-captions-line > div > span"
+    ],
+    "southampton.cloud.panopto.eu_no_subitle": [
+      ".primaryPlayer"
+    ],
+    "*.edx.org": [
+      ".closed-captions",
+      ".wrapper-video-bottom-section",
+      ".secondary-controls"
+    ],
+    "courses.mitxonline.mit.edu": [
+      ".closed-captions",
+      ".wrapper-video-bottom-section",
+      ".secondary-controls"
+    ],
+    "www.ardmediathek.*": [
+      ".ardplayer-viewport-addon-overlays"
+    ],
+    "https://www.bbc.*/iplayer*": [
+      ".player"
+    ],
+    "https://emp.bbc.*/emp/*": [
+      ".p_accessibleHitArea"
+    ],
+    "*.bbc.*": [
+      "section.module--languages",
+      ".drop-capped",
+      ".smp-toucan-player",
+      "smp-subtitles",
+      "#subtitle_subtitle2"
+    ],
+    "www.disneyplus.com": [
+      ".dss-hls-subtitle-overlay"
+    ],
+    "https://*.hulu.com": [
+      ".PlayerMetadata__subTitle",
+      ".CaptionBox"
+    ],
+    "https://*.hulu.*": [
+      ".PlayerMetadata__subTitle",
+      ".CaptionBox"
+    ],
+    "www.youku.tv": [
+      "#subtitle"
+    ],
+    "www.starz.com": [
+      "starz-player"
+    ],
+    "www.iq.com": [
+      ".iqp-subtitle"
+    ],
+    "www.cbsnews.com": [
+      ".avia-container"
+    ],
+    "www.gaia.com": [
+      "video-js"
+    ],
+    "www.medbridge.com": [
+      "#player-video"
+    ],
+    "urplay.se": [
+      ".jw-media"
+    ],
+    "www.medici.tv": [
+      "#player-movie-page"
+    ],
+    "api.playposit.com": [
+      "#overlay-container"
+    ],
+    "www.gagaoolala.com": [
+      "#gl-id-video-container"
+    ],
+    "curiositystream.com": [
+      "[data-testid=\"video-player\"]"
+    ],
+    "shangpa-academy.mn.co": [
+      ".mighty-video-player-container"
+    ],
+    "aggievideo.canvas.ucdavis.edu": [
+      "[data-testid=\"video-player\"]"
+    ],
+    "f1tv.formula1.com": [
+      "#main-embeddedPlayer"
+    ],
+    "projector.datacamp.com": [
+      ".video"
+    ],
+    "imigresen-online.imi.gov.my": [
+      "#clock"
+    ],
+    "www.coindesk.com": [
+      "[data-subtitles-container='true']"
+    ],
+    "archive.today": [
+      "#HEADER"
+    ],
+    "archive.ph": [
+      "#HEADER"
+    ],
+    "archive.is": [
+      "#HEADER"
+    ],
+    "archive.md": [
+      "#HEADER"
+    ],
+    "www.arxiv-vanity.com": [
+      ".arxiv-vanity-wrapper"
+    ],
+    "bard.google.com": [
+      "mat-sidenav",
+      "div.capabilities-disclaimer",
+      "#cdk-overlay-6",
+      "message-actions button",
+      ".mdc-button__label .ng-star-inserted",
+      ".mdc-list-item__primary-text"
+    ],
+    "*.google.com": [
+      ".o_35",
+      "[style*='Google Symbols']",
+      "md-icon-button",
+      ".material-symbols-outlined",
+      ".cfc-result-card-table",
+      ".material-symbols",
+      ".gemini-large-text__overlay",
+      "code",
+      "view-line",
+      "#modelSelector",
+      ".leaderboard-content",
+      "#selected-count",
+      "#selected-cat"
+    ],
+    "dart.dev": [
+      ".o_35",
+      "[style*='Google Symbols']",
+      "md-icon-button",
+      ".material-symbols-outlined",
+      ".cfc-result-card-table",
+      ".material-symbols",
+      ".gemini-large-text__overlay",
+      "code",
+      "view-line",
+      "#modelSelector",
+      ".leaderboard-content",
+      "#selected-count",
+      "#selected-cat"
+    ],
+    "*.google": [
+      ".o_35",
+      "[style*='Google Symbols']",
+      "md-icon-button",
+      ".material-symbols-outlined",
+      ".cfc-result-card-table",
+      ".material-symbols",
+      ".gemini-large-text__overlay",
+      "code",
+      "view-line",
+      "#modelSelector",
+      ".leaderboard-content",
+      "#selected-count",
+      "#selected-cat"
+    ],
+    "*.googleapis.com": [
+      ".o_35",
+      "[style*='Google Symbols']",
+      "md-icon-button",
+      ".material-symbols-outlined",
+      ".cfc-result-card-table",
+      ".material-symbols",
+      ".gemini-large-text__overlay",
+      "code",
+      "view-line",
+      "#modelSelector",
+      ".leaderboard-content",
+      "#selected-count",
+      "#selected-cat"
+    ],
+    "https://browse.arxiv.org": [
+      ".desktop_header",
+      "[class*='ltx_lst_language_']",
+      "div.package-alerts",
+      ".ltx_toclist",
+      ".ltx_authors",
+      ".ltx_bibliography"
+    ],
+    "https://arxiv.org/html/*": [
+      ".desktop_header",
+      "[class*='ltx_lst_language_']",
+      "div.package-alerts",
+      ".ltx_toclist",
+      ".ltx_authors",
+      ".ltx_bibliography"
+    ],
+    "ar5iv.labs.arxiv.org": [
+      ".ltx_bibliography",
+      ".ltx_tag.ltx_tag_item",
+      ".ltx_listing.ltx_lstlisting.ltx_listing",
+      ".ltx_eqn_table",
+      ".ltx_figure_panel"
+    ],
+    "www.jstor.org": [
+      ".audio-duration",
+      "[data-qa='card-item-count']"
+    ],
+    "https://bsky.app": [
+      "[class='css-146c3p1 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-1iln25a']",
+      "[class='css-175oi2r r-1la3zjv r-3o4zer']",
+      "[data-testid^=homeScreenFeedTabs]",
+      "[class='css-146c3p1 r-1loqt21']",
+      "[class='css-1jxf684 r-1loqt21']",
+      "[data-testid^=repostCount]",
+      "[data-testid^=likeCount]",
+      "[data-testid^=quoteCount]",
+      "[data-testid^=replyBtn]",
+      "[aria-label='View profile']"
+    ],
+    "www.smzdm.com": [
+      ".z-highlight",
+      ".feed-block-info",
+      ".z-feed-foot",
+      ".feed-block-descripe",
+      "#J_column_tab_box",
+      ".crumbs"
+    ],
+    "www.xiaohongshu.com": [
+      ".author-wrapper",
+      ".info",
+      ".side-bar",
+      ".interactions",
+      ".show-more",
+      ".bottom-container",
+      ".total",
+      ".reds-sticky"
+    ],
+    "soundcloud.com": [
+      ".searchTitle__textContent",
+      ".searchOptions__container",
+      ".compactTrackListItem__additional",
+      ".soundTitle__tagContainer",
+      ".searchResultGroupHeading",
+      ".sc-ministats-group",
+      ".compactTrackList__moreLink",
+      ".sound__soundActions"
+    ],
+    "section.blog.naver.com": [
+      ".comments",
+      ".time"
+    ],
+    "hadoop.apache.org": [
+      ".xleft",
+      ".xright",
+      "#navcolumn"
+    ],
+    "pubs.acs.org": [
+      ".articleHeaderDropzone2",
+      "header"
+    ],
+    "archiveofourown.org/works*chapters/*": [
+      ".meta",
+      ".navigation",
+      ".byline",
+      "#add_comment",
+      "#footer",
+      ".summary > h3",
+      ".notes > h3"
+    ],
+    "archiveofourown.org": [
+      ".meta",
+      ".navigation",
+      ".byline",
+      "#add_comment",
+      "#footer",
+      ".summary > h3",
+      ".notes > h3"
+    ],
+    "bitwarden.com": [
+      ".status-widget__state"
+    ],
+    "help.maxon.net": [
+      "#contentBody"
+    ],
+    "queenslibrary.org": [
+      "#Web-QBPL-Menu"
+    ],
+    "ac.nowcoder.com": [
+      ".answer-module",
+      ".question-intr",
+      ".language-list",
+      ".question-oi"
+    ],
+    "*.chromium.org": [
+      "ancestors-breadcrumbs",
+      "depth-finder[role='tree']",
+      "repository-detail"
+    ],
+    "ffmpeg.org": [
+      ".memproto",
+      ".memtitle"
+    ],
+    "podcasts.apple.com": [
+      ".detailed-play-button-wrapper"
+    ],
+    "docs.wxwidgets.org": [
+      ".doxygen-awesome-fragment-wrapper"
+    ],
+    "https://app.follow.is/feeds/*": [
+      ".bg-native",
+      "main > div > div.h-full:first-child span"
+    ],
+    "www.casino.org": [
+      ".material-symbols-outlined"
+    ],
+    "motrix.app": [
+      ".download-section__right .el-tabs__nav"
+    ],
+    "app.schildi.chat": [
+      ".mx_DisambiguatedProfile",
+      ".mx_MessageTimestamp",
+      ".mx_EventTile_avatar"
+    ],
+    "ml4vis.github.io": [
+      ".jss45"
+    ],
+    "www.dgl.ai": [
+      "header"
+    ],
+    "www.monmouthcoffee.*": [
+      "#basket"
+    ],
+    "www.sobqg.com/book/*": [
+      "#hot .g_book > span"
+    ],
+    "www.proko.com": [
+      ".proko-preview-statistic-wrap",
+      ".lesson-instructors-wrap",
+      ".proko-comments-item-title",
+      ".proko-comments-item-vote-wrap",
+      ".course-card__details .border-outline075",
+      ".category-subscribe"
+    ],
+    "*.aliexpress.*": [
+      "[class*='multi--price']"
+    ],
+    "codeium.com": [
+      "nav a[class*=C]"
+    ],
+    "book.douban.com": [
+      "a.author-name",
+      "p.user > a",
+      "div#collector > div > div[style^='padding-left'] > a",
+      "div#info a"
+    ],
+    "*.taobao.com": [
+      ".text-price"
+    ],
+    "www.graphcore.ai": [
+      ".morph"
+    ],
+    "jscires.org": [
+      ".jatsa_contrib_info"
+    ],
+    "www.vaseven.com": [
+      ".et_pb_main_blurb_image"
+    ],
+    "ollama.com": [
+      "#file-explorer",
+      "span[x-test-search-response-title]",
+      "a[x-test-model-name]",
+      "span[x-test-size]",
+      "span[x-test-capability]"
+    ],
+    "claudeartifacts.com": [
+      "h1",
+      "h3 + span.rounded-full",
+      "[class='p-6 pt-0 flex justify-between items-center']",
+      "[class='text-xs text-gray-500']"
+    ],
+    "*.1password.com": [
+      ".secret-key"
+    ],
+    "www.descript.com": [
+      "h1.home-hero"
+    ],
+    "www.noon.com": [
+      "[class*='priceContainer']",
+      "[class*='ProductImageFooter']",
+      "[class*='Nudges_nudges']"
+    ],
+    "klibs.io": [
+      "[class*='styles_footerWrapper']",
+      "[class*='styles_searchFilterContainerWrapper']",
+      "[class*='styles_headingWrapper']",
+      "[class*='styles_navigation']",
+      "[class*='styles_rightSideColumnWrapper']",
+      ".breadcrumb"
+    ],
+    "www.androidpolice.com": [
+      ".author",
+      ".w-total-info",
+      ".images-header-menu-list",
+      ".w-display-card-details",
+      ".w-display-card-extra"
+    ],
+    "doc2x.com": [
+      "#md-scroll-top-dom"
+    ],
+    "doc2x.noedgeai.com": [
+      "#md-scroll-top-dom"
+    ],
+    "atcoder.jp": [
+      ".nav-tabs"
+    ],
+    "pytorch.org": [
+      ".with-down-arrow",
+      ".hello-bar",
+      "[data-cta='join']"
+    ],
+    "seller.tiktok.com": [
+      ".chatd-message-userName"
+    ],
+    "seller-my.tiktok.com": [
+      ".chatd-message-userName"
+    ],
+    "affiliate.tiktok*.com": [
+      ".chatd-message-userName"
+    ],
+    "seller.*.tiktokglobalshop.com": [
+      ".chatd-message-userName"
+    ],
+    "seller.tiktokshopglobalselling.com": [
+      ".chatd-message-userName"
+    ],
+    "ccfddl.com": [
+      "div.conf-timer > span[style^='color: black']"
+    ],
+    "docs.flutter.dev": [
+      "span.expander.material-symbols",
+      "span.material-symbols"
+    ],
+    "docs.flutter.cn": [
+      "span.expander.material-symbols",
+      "span.material-symbols"
+    ],
+    "www.msn.com": [
+      ".attribution",
+      ".super-nav-container",
+      "#follow-button",
+      ".media-info-container",
+      ".ad-label",
+      ".provider-name",
+      ".weather-container",
+      ".money-info-content",
+      "casual-games-card",
+      ".match-data",
+      ".me-stripe-container"
+    ],
+    "www.edclub.com": [
+      ".vjs-text-track-display"
+    ],
+    "mediaspace.illinois.edu": [
+      ".playkit-overlay-action "
+    ],
+    "www.skool.com": [
+      "[class^=styled__ShowMore]",
+      "[class^=styled__UserNameText]",
+      "[class^=styled__GroupNameWrapper]",
+      "[class^=styled__ButtonWrapper]",
+      "[class^=styled__LeaderboardsPreviewTitle]",
+      "[class^=styled__ExpandRepliesWrapper]",
+      "[class^=styled__GroupFeedLinkLabel]",
+      "[class^=styled__HeaderLinks]",
+      "[class^=styled__RecentActivityLabel]",
+      "[class^=styled__PostedDate]",
+      "[class^=styled__MemberInfo]",
+      "[class^=styled__UserRoleTag]",
+      "[class^=styled__DateAndLabelWrapper]",
+      "[class^=styled__PinnedOverlay]",
+      "[class^=styled__CommentsCount]",
+      "[class^=styled__LastMessageTime]",
+      "[class^=styled__LikeLabel]",
+      "[class^=styled__TypographyWrapper]",
+      "[class^=styled__MemberPercentage]",
+      "[class^=styled__LevelBlockTitle]"
+    ],
+    "*.xiaosaas.com": [
+      "p.marginRight10",
+      "p.marginLeft10"
+    ],
+    "www.freecodecamp.org": [
+      ".monaco-mouse-cursor-text",
+      ".challenge-preview"
+    ],
+    "www.gta5-mods.com": [
+      "#main-nav"
+    ],
+    "pandaily.com": [
+      "[data-discover]",
+      "header"
+    ],
+    "*.dcinside.com": [
+      ".num",
+      ".time"
+    ],
+    "f95zone.to": [
+      ".pageNavWrapper",
+      ".message-userExtras",
+      ".message-name"
+    ],
+    "marquee.gs.com": [
+      "[class*='article-header-sub-header']",
+      "[role=img]"
+    ],
+    "app.folo.is": [
+      "[role=button]"
+    ],
+    "lmarena.ai": [
+      "table"
+    ],
+    "vercel.com": [
+      "[class^=fade-in-words]"
+    ],
+    "*://*/*.txt": [
+      ".api-code",
+      "pre.highlight.def"
+    ],
+    "file://*/*.txt": [
+      ".api-code",
+      "pre.highlight.def"
+    ]
+  },
+  "forceBlockTranslationSelectors": {
+    "github.com": [
+      "task-lists"
+    ],
+    "engoo.com": [
+      "#windowexercise-2 > div > div > div.css-ep7xq6 > div > div > div.css-19m2fbm *"
+    ]
+  }
+}
