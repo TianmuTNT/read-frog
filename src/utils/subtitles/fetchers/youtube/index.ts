@@ -22,6 +22,7 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
   private pendingResolve: ((subtitles: SubtitlesFragment[]) => void) | null = null
   private pendingReject: ((error: Error) => void) | null = null
   private timeoutId: ReturnType<typeof setTimeout> | null = null
+  private retryTimeoutId: ReturnType<typeof setTimeout> | null = null
   private retryCount: number = 0
 
   initialize(): void {
@@ -62,6 +63,10 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
       clearTimeout(this.timeoutId)
       this.timeoutId = null
     }
+    if (this.retryTimeoutId) {
+      clearTimeout(this.retryTimeoutId)
+      this.retryTimeoutId = null
+    }
   }
 
   private rejectAndClearPending(error: Error) {
@@ -74,8 +79,10 @@ export class YoutubeSubtitlesFetcher implements SubtitlesFetcher {
       return false
     }
     this.retryCount++
-    setTimeout(() => {
-      this.clickYoutubeSubtitleButton()
+    this.retryTimeoutId = setTimeout(() => {
+      if (this.pendingResolve) {
+        this.clickYoutubeSubtitleButton()
+      }
     }, RETRY_DELAY_MS)
     return true
   }

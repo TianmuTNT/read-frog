@@ -274,8 +274,8 @@ export class UniversalVideoAdapter {
         updateBlockState(updatedBatches, batch.id, 'error'),
       )
 
-      // Add original subtitles as fallback (with empty translation)
-      const fallbackSubtitles = batch.fragments.map(f => ({ ...f, translation: '' }))
+      // Add original subtitles as fallback (use original text as translation for translation-only mode)
+      const fallbackSubtitles = batch.fragments.map(f => ({ ...f, translation: f.text }))
       this.subtitlesScheduler?.supplementSubtitles(fallbackSubtitles)
 
       const errorMessage = error instanceof Error ? error.message : String(error)
